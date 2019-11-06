@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab&display=swap');
+
+body {
+    background: beige;
+}
+
+h1 {
+    font-family: 'Italiana', serif;
+    font-size: 60px;
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    font-family: 'Italiana', serif;
+    font-size: 50px;
+    color: darkseagreen;
+    margin: 2%;
+
+
+}
+
+h3 {
+    font-family: 'Italiana', serif;
+    font-size: 38px;
+    color: darkblue;
+    margin:2% 
+
+
+
+}
+
+h4 {
+    font-family: 'Italiana', serif;
+    color: darkblue;
+    margin:2%;
+}
+
+
+
+p {
+    font-family: 'Antic Slab', serif;
+    font-size: 16px;
+    color: black;
+    margin: 2%;
+    
+
+}
+
+.tagline {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 40px;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.attractor {
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-size: 25px;
+    color: darkblue;
+    margin:2%;
+}
+
+.intro {
+    text-align: center;
+    font-weight:bold;
+
+}
+
+#navlist li {
+    font-family: 'Antic Slab', serif;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+
+a {
+    color: darkblue;
+    font-family: 'Antic Slab', serif;
+    text-decoration: underline;
+    text-transform:
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    GRID-GAP: 5PX;
+    margin: 2%;
+    padding: 1%;
+    border: 3px solid;
+    width: 60%;
+    
+       
+}
+.retrieval{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px 15px 15px;
+    margin:1%;
+    
+}
+
+.retrieval-item{
+    border: 3px solid black;
+    
+}
+
+.why{
+    grid-column: 1/3;
+    
+    
+}
+
+.how{
+    grid-column: 3/5;
+    
+    
+}
+.when{
+    grid-column: 2/4;
+    
+    
+}
